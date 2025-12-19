@@ -70,6 +70,18 @@ export default function ContactContent() {
 
 					<div className="flex items-start space-x-4">
 						<div className="bg-[#D4A574]/20 p-3 rounded-full text-[#D4A574]">
+							<Phone className="w-6 h-6" />
+						</div>
+						<div>
+							<h3 className="font-bold text-[#2C1E1A]">Brazil Office</h3>
+							<p className="text-gray-600 font-medium">São Paulo, Brasil</p>
+							<p className="text-gray-600">+55 11 94570-2260</p>
+							<p className="text-sm text-gray-500">Mon-Fri: 9am - 6pm</p>
+						</div>
+					</div>
+
+					<div className="flex items-start space-x-4">
+						<div className="bg-[#D4A574]/20 p-3 rounded-full text-[#D4A574]">
 							<Mail className="w-6 h-6" />
 						</div>
 						<div>

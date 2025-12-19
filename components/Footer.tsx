@@ -115,6 +115,14 @@ export default function Footer() {
 								</span>
 							</li>
 							<li className="flex items-center gap-3 text-gray-400">
+								<Phone className="w-5 h-5 text-[#D4A574] shrink-0" />
+								<span>
+									Brazil Office - São Paulo
+									<br />
+									+55 11 94570-2260
+								</span>
+							</li>
+							<li className="flex items-center gap-3 text-gray-400">
 								<Mail className="w-5 h-5 text-[#D4A574] shrink-0" />
 								<span>info@braziliancoffee.com</span>
 							</li>
