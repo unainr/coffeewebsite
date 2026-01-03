@@ -95,36 +95,65 @@ export default function Footer() {
 						<h3 className="text-lg font-serif font-bold mb-6 text-[#D4A574]">
 							Get in Touch
 						</h3>
-						<ul className="space-y-4">
-							<li className="flex items-start gap-3 text-gray-400">
-								<MapPin className="w-5 h-5 text-[#D4A574] shrink-0 mt-1" />
-								<span>
-									Av Yervant Kissajikian, 1153
-									<br />
-									Vila Constança, SP, Cep 04657001
-									<br />
-									Sumaiyya Borges galvao
-								</span>
+						<ul className="space-y-5">
+							{/* Brazil Address */}
+							<li className="flex items-start gap-3 text-gray-400 text-sm">
+								<MapPin className="w-4 h-4 text-[#D4A574] shrink-0 mt-0.5" />
+								<div>
+									<div className="text-white font-medium mb-1">Brazil Office</div>
+									<div className="leading-relaxed">
+										Av Yervant Kissajikian, 1153<br />
+										Vila Constança, SP<br />
+										Cep 04657001<br />
+										<span className="text-gray-500">Sumaiyya Borges galvao</span>
+									</div>
+								</div>
 							</li>
-							<li className="flex items-center gap-3 text-gray-400">
-								<Phone className="w-5 h-5 text-[#D4A574] shrink-0" />
-								<span>
-									Adnan Mustafa
-									<br />
-									+973 36074003
-								</span>
+
+							{/* Kenya Address */}
+							<li className="flex items-start gap-3 text-gray-400 text-sm">
+								<MapPin className="w-4 h-4 text-[#D4A574] shrink-0 mt-0.5" />
+								<div>
+									<div className="text-white font-medium mb-1">Kenya Office</div>
+									<div className="leading-relaxed">
+										P.O.BOX 16526-80100<br />
+										Mombasa, Kenya<br />
+										<span className="text-gray-500">Ahmad irshad</span>
+									</div>
+								</div>
 							</li>
-							<li className="flex items-center gap-3 text-gray-400">
-								<Phone className="w-5 h-5 text-[#D4A574] shrink-0" />
-								<span>
-									Brazil Office - São Paulo
-									<br />
-									+55 11 94570-2260
-								</span>
+
+							{/* Phone Numbers */}
+							<li className="flex items-start gap-3 text-gray-400 text-sm">
+								<Phone className="w-4 h-4 text-[#D4A574] shrink-0 mt-0.5" />
+								<div className="space-y-2">
+									<div>
+										<div className="text-white">Adnan Mustafa</div>
+										<a href="tel:+97336074003" className="hover:text-[#D4A574] transition-colors">
+											+973 36074003
+										</a>
+									</div>
+									<div>
+										<div className="text-white">Brazil - São Paulo</div>
+										<a href="tel:+5511945702260" className="hover:text-[#D4A574] transition-colors">
+											+55 11 94570-2260
+										</a>
+									</div>
+									<div>
+										<div className="text-white">Kenya - Mombasa</div>
+										<a href="tel:+254733811388" className="hover:text-[#D4A574] transition-colors">
+											+254 733811388
+										</a>
+									</div>
+								</div>
 							</li>
-							<li className="flex items-center gap-3 text-gray-400">
-								<Mail className="w-5 h-5 text-[#D4A574] shrink-0" />
-								<span>info@braziliancoffee.com</span>
+
+							{/* Email */}
+							<li className="flex items-center gap-3 text-gray-400 text-sm">
+								<Mail className="w-4 h-4 text-[#D4A574] shrink-0" />
+								<a href="mailto:info@braziliancoffee.com" className="hover:text-[#D4A574] transition-colors">
+									info@braziliancoffee.com
+								</a>
 							</li>
 						</ul>
 					</div>
@@ -141,7 +170,7 @@ export default function Footer() {
 							<input
 								type="email"
 								placeholder="Your email address"
-								className="w-full bg-white/5 border border-white/10 rounded px-4 py-3 text-white placeholder:text-gray-500 focus:outline-none focus:border-[#D4A574] transition-colors"
+								className="w-full bg-white/5 border border-white/10 rounded px-4 py-3 text-white placeholder:text-gray-500 focus:outline-none focus:border-[#D4A574] transition-colors text-sm"
 							/>
 							<button
 								type="submit"
