@@ -13,7 +13,7 @@ import CTA from "@/components/CTA";
 export default function Home() {
 	return (
 		<main>
-			<Hero />
+			{/* <Hero />
 			<Features />
 			<Stats />
 			<Products limit={4} />
@@ -22,9 +22,9 @@ export default function Home() {
 			<Ingredients />
 			<Story />
 
+			<CTA /> */}
 			{/* Products Teaser */}
 
-			<CTA />
 
 		</main>
 	);
