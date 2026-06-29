@@ -6,7 +6,7 @@ import { LayoutsProps } from '@/types'
 const Layout = ({children}:LayoutsProps) => {
   return (
     <>
-  <MainHeader/>
+  {/* <MainHeader/> */}
     {children}
     </>
   )
